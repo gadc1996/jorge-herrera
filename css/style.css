@@ -1,0 +1,151 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Header*/
+header{
+    background-image: url('../img/JorgeHerrera.jpeg') ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100vh;
+    display: block;
+    
+}
+.layer{
+    background-color: rgba(134, 134, 134, 0.5);
+    height: 100vh;
+}
+nav{
+    padding:20px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.logo{
+    color:#fff;
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links a{
+    color:#fff;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    text-decoration:underline;
+}
+/*Incentives*/
+#incentives{
+    padding:100px 150px;
+    background-color: #0088cc;
+    color: #fff;
+    display:block;
+}
+.incentives{
+    display: flex;
+    justify-content:space-around;
+}
+/*Form*/
+#form{
+    background-color: #f7f7f7;
+    padding: 100px;
+    display: block;
+}
+.form{
+    
+    width: 50%;
+    margin:0 auto;
+}
+.form input{
+    margin: 5px 0px;
+    height: 40px;
+}
+#year, #bran,#model{
+    width: 34.6%;
+}
+#zip, #contact, #name, #type{
+    width: 48.5%;
+}
+#coverage{
+    width: 98%;
+}
+#submit{
+    margin: 10px 0px;
+    background-color: #0088cc;
+    border-color:#0088cc;
+    width: 20%;
+    height: 30px;
+}
+footer{
+    background-color: #0088cc;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+    color: #fff;
+}
+.contact-box{
+    
+    width: 30%;
+}
+.contact-item{
+    display:flex;
+}
+.icon{
+    font-size:30px;
+    color:#fff;
+    
+    margin: 10px 15px;
+}
+.footer-subtitle{
+    margin: 5px 0px;
+}
+.footer-contact i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+/*Section commons*/
+.section-title{
+    text-align:center    
+}
+.divider1{
+    height: 5px;
+    width:100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom:15px;
+    border-radius:3px;
+    background-color: #fff;
+}
+.divider2{
+    height: 5px;
+    width:100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom:15px;
+    border-radius:3px;
+    background-color: #000;
+}
+.section-subtitle{
+    margin: 15px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.info{
+    text-align: center;
+    font-size:14px;
+}
+.item-box{
+    width: 20%;
+    
+}
+.item-icon{
+    text-align: center;
+    font-size:40px;
+    
+}
